@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Header */
+
+header {
+    min-height: 1vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 1px solid black;
+    background: linear-gradient(rgb(79, 79, 79), rgb(125, 125, 125));
+
+}
+
+
+nav {
+    display: grid;
+    grid-template-columns: 10rem 10rem 20rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    border-radius: 50%;
+    background-color: rgb(171, 107, 107);
+    font-size: 1.5rem;
+    min-height: 10vh;
+    width: 10vh;
+}
+
+#YT {
+    border-radius: 50%;
+    min-height: 10vh;
+    width: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#search-input {
+    width: 50rem;
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    background: rgb(193, 193, 193);
+}
+
+.sidebar {
+    font-size: 1.5rem;
+    width: 20vh;
+    max-height: fit-content;
+    border: 1px solid black;
+}
+
+.sidebar-selections ul {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    justify-content: space-between;
+    padding: 5rem;
+    list-style: none;
+}
+
+.account-container {
+    min-height: 29vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 2rem;
+}
+
+
+#account1 {
+    border-radius: 50%;
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    width: 10vh;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.content {
+    flex: 1;
+}
+
+.cards-last {
+    margin: 5rem;
+    min-height: 30vh;
+    padding: 2rem;
+    margin-bottom: 10rem;
+}
+
+.songs-last {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.song {
+    border-radius: 80%;
+    min-width: 15vh;
+    min-height: 15vh;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.cards-favourites {
+    margin: 5rem;
+    min-height: 30vh;
+    padding: 2rem;
+}
+
+.favourite-songs {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.fav {
+    min-height: 15vh;
+    min-width: 15vh;
+    border: 1px solid black;
+}
+
+.cards-for-you {
+    margin: 5rem;
+    min-height: 30vh;
+    padding: 2rem;
+}
+
+.songs-for-you {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.fy {
+    border-radius: 80%;
+    min-width: 15vh;
+    min-height: 15vh;
+    text-align: center;
+    border: 1px solid black;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
